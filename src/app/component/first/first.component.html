@@ -1,0 +1,10 @@
+<p (mouseenter)="changeColor('red')"
+    (mouseleave)="changeColor('yellow')"
+    [hidden]="isHidden"
+    [style.color]="color"
+> input works 
+<input type="text" #inputText class="form-control">
+cc c'est {{ name }} </p>
+<app-second></app-second>
+bonjour monsieur {{ message }}
+<button class="btn btn-primary" (click)="AjoutMot(inputText.value)">tester</button>

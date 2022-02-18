@@ -1,0 +1,5 @@
+<div [style.backgroundColor]="bgc"> Hello sami</div>
+<input type="text" (change)="changeColor(inputText.value)" #inputText class="form-control">
+<input type="color" [(ngModel)]="bgc" class="form-control">
+<button (click)="changeColor(colorDefault)" class="btn btn-danger
+">changer</button>
